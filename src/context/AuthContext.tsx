@@ -6,7 +6,7 @@ const ADMIN_USER: User = {
   id: 'admin-1',
   username: 'academy_admin',
   // In a real app, this would be hashed and not stored directly
-  password: 'Dev$Market_Sphere@2025!',
+  password: 'devsphere2025',
   role: 'admin',
   createdAt: new Date(),
 };
@@ -14,7 +14,7 @@ const ADMIN_USER: User = {
 // Initial teacher
 const TEACHER_USER: User = {
   id: 'teacher-1',
-  username: 'teacher1',
+  username: 'Teacher',
   password: 'teacher123',
   role: 'teacher',
   createdAt: new Date(),
